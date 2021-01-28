@@ -1,0 +1,169 @@
+/* .tableView {
+  width: 2000px !important;
+  display: block;
+  overflow: scroll;
+} */
+.binBarcode {
+  background-color: lightgreen !important;
+  font-weight: bold !important;
+  color: black !important;
+}
+.notBinBarcode {
+  background-color: lightcoral !important;
+  font-weight: bold !important;
+  color: black !important;
+}
+.listedDesign {
+  background-color: #26c6da;
+}
+.notListedDesign {
+  background-color: #ffea00;
+}
+.shippedBarcode {
+  background-color: #ef5350;
+  color: white;
+}
+.discardBarcode {
+  background-color: lightcoral !important;
+  font-weight: bold !important;
+}
+.notDiscardBarcode {
+  background-color: lightgreen;
+  font-weight: bold;
+}
+.my-header-class {
+  width: 100% !important;
+}
+.add-barcodes {
+  background-color: #e3f2fd;
+  width: 100% !important;
+}
+.class-for-editing-cell {
+  background-color: #ffbb73;
+}
+/* .react-bs-table,
+.react-bs-table-bordered {
+  width: 100%;
+  height: auto;
+  display: grid;
+} */
+.tr-function-full {
+  font-weight: bold;
+  background-color: #4ec554;
+}
+.tr-function-partial {
+  font-weight: bold;
+  background-color: #fa8668;
+}
+.tr-function-not {
+  font-weight: bold;
+  background-color: #58c6e2;
+}
+.tr-function-proccess {
+  font-weight: bold;
+  background-color: #cecf85;
+}
+.filter {
+  display: none;
+}
+.thumbnail {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  position: relative;
+}
+.thumbnail:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.thumbnail img {
+  max-width: 100%;
+}
+
+.thumbnail h1 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  color: lightgrey;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%); /* doesn't work in IE9 and older I'm affraid */
+  margin: 0;
+}
+.thumbnail_new {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 450px;
+  position: relative;
+}
+.thumbnail_new:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.thumbnail_new img {
+  max-width: 100%;
+}
+
+.thumbnail_new h1 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  color: lightgrey;
+  width: 100%;
+  text-align: center;
+  transform: translateY(-50%); /* doesn't work in IE9 and older I'm affraid */
+  margin: 0;
+}
+/* .shipping_label {
+  width: 100%;
+  height: 100%;
+} */
+/* .table-scroll {
+  background: none;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.table-scroll a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+.table-scroll a:hover {
+  background-color: #777;
+}
+.react-bs-container-body tr,
+td:nth-child(4) {
+  padding: 1.5% !important;
+}
+.react-bs-container-body tr,
+td:nth-child(5) {
+  padding: 1.5% !important;
+}
+
+.react-bs-container-header tr,
+th:nth-child(1) {
+  width: 7%;
+}
+.react-bs-container-header tr,
+th:nth-child(2) {
+  width: 10%;
+}
+.react-bs-container-header tr,
+th:nth-child(3) {
+  width: 7.8%;
+}
+.react-bs-container-header tr,
+th:nth-child(4) {
+  width: 6.4%;
+}
+.react-bs-container-header tr,
+th:nth-child(5) {
+  width: 6%;
+}
+.btn-edit {
+  height: 25%;
+} */

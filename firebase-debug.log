@@ -1,0 +1,32 @@
+[debug] [2019-02-26T13:22:47.336Z] ----------------------------------------------------------------------
+[debug] [2019-02-26T13:22:47.339Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only functions
+[debug] [2019-02-26T13:22:47.339Z] CLI Version:   6.4.0
+[debug] [2019-02-26T13:22:47.339Z] Platform:      win32
+[debug] [2019-02-26T13:22:47.339Z] Node Version:  v11.10.0
+[debug] [2019-02-26T13:22:47.340Z] Time:          Tue Feb 26 2019 18:22:47 GMT+0500 (Pakistan Standard Time)
+[debug] [2019-02-26T13:22:47.340Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-26T13:22:47.361Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-26T13:22:47.362Z] > authorizing via signed-in user
+[debug] [2019-02-26T13:22:47.362Z] [iam] checking project laptopzone-9d0ed for permissions ["firebase.projects.get"]
+[debug] [2019-02-26T13:22:47.364Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-02-26T13:22:47.365Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-02-26T13:22:47.954Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-26T13:22:47.987Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/laptopzone-9d0ed:testIamPermissions  
+
+[debug] [2019-02-26T13:22:49.723Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-26T13:22:49.725Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laptopzone-9d0ed  
+ 
+[debug] [2019-02-26T13:22:51.285Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\laptop_zone\laptopzone_react'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-02-26T13:22:52.421Z] Fetching environment
+[debug] [2019-02-26T13:22:52.424Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/476019226125:getServerAppConfig  
+ 
+[debug] [2019-02-26T13:22:53.034Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-26T13:22:53.035Z] Starting @google-cloud/functions-emulator
+[debug] [2019-02-26T13:22:55.085Z] Parsing function triggers
+[info] +  functions: testFunction: http://localhost:5000/laptopzone-9d0ed/us-central1/testFunction

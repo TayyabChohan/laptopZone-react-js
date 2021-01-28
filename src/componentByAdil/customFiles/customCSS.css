@@ -1,0 +1,15 @@
+.hide {
+  display: none !important;
+}
+.customLabel {
+  margin-left: 15px;
+}
+.customLabel input {
+  margin-right: 10px !important;
+}
+.barcode_span {
+  margin: 0px 2px;
+}
+.barcode_input {
+  margin: 0px 6px !important;
+}

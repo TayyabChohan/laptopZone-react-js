@@ -1,0 +1,188 @@
+body {
+  font-family: Helvetica, sans-serif;
+}
+.react-autosuggest__container {
+  position: relative;
+}
+label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+    margin-top: 15px;
+    font-weight: 1000;
+}
+.crsr-pntr {
+    cursor: pointer;
+}
+
+.react-autosuggest__input {
+  width: 100%;
+  height: 46px;
+  padding: 10px 20px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+
+.react-autosuggest__input:focus {
+  outline: none;
+  border-radius: 0;
+  box-shadow: none;
+  border-color: blue;
+}
+
+.react-autosuggest__container--open .react-autosuggest__input {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.react-autosuggest__suggestions-container {
+  display: none;
+}
+
+.react-autosuggest__container--open .react-autosuggest__suggestions-container {
+  display: block;
+  position: absolute;
+  top: 51px;
+  width: 100%;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  z-index: 2;
+}
+
+.react-autosuggest__suggestions-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.react-autosuggest__suggestion {
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.react-autosuggest__suggestion:not(:first-child) {
+  border-top: 1px solid #ddd;
+}
+
+.react-autosuggest__suggestion--focused {
+  background-color: #0c7eaf;
+  color: #fff;
+}
+
+.suggestion-content {
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+}
+
+.dancounsell {
+  background-image: url(https://s3.amazonaws.com/uifaces/faces/twitter/dancounsell/48.jpg);
+}
+
+.ladylexy {
+  background-image: url(https://s3.amazonaws.com/uifaces/faces/twitter/ladylexy/48.jpg);
+}
+
+.mtnmissy {
+  background-image: url(https://s3.amazonaws.com/uifaces/faces/twitter/mtnmissy/48.jpg);
+}
+
+.steveodom {
+  background-image: url(https://s3.amazonaws.com/uifaces/faces/twitter/steveodom/48.jpg);
+}
+
+.name {
+  margin-left: 68px;
+  line-height: 45px;
+}
+
+.highlight {
+  color: #ee0000;
+  font-weight: bold;
+}
+
+.react-autosuggest__suggestion--focused .highlight {
+  color: #120000;
+}
+
+.getCss {
+  border: 1px solid #9e9d9d;
+  border-radius: 1px;
+  
+  width: 150px;
+  height: 100PX;
+  padding-top: 1px;
+  padding-right: 1px;
+  padding-bottom: 1px;
+  padding-left: 1px;
+
+  
+}
+.getCss:hover {
+  box-shadow: 1PX 1PX 40px 1px rgba(0, 140, 186, 0.5);
+}
+.imageView {
+  width: "200px";
+  height: "200px";
+  float: "left";
+  overflow: " hidden";
+  position: "relative";
+}
+.getCss2 {
+  border: 3px solid #ddd;
+  border-radius: 4px;
+  width: 340px;
+  height: 300px;
+  margin-left: -32px;
+  opacity: 1;
+  cursor: "pointer";
+}
+.getCss2:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  opacity: 0.8;
+}
+.mouseHoverEffect {
+  opacity: 1;
+  float: left;
+  display: block;
+  width: 80px;
+  height: 80px;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+  cursor: "pointer";
+}
+
+.mouseHoverEffect:hover {
+  opacity: 0.3;
+}
+.conditionHover:hover .headerColor {
+  background-color: white !important;
+  background-color: #222d32 !important;
+  color: white !important;
+  transition: 0.5s;
+}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    border: 0;
+    border-top: 16px solid #ecf0f5;
+}
+
+.setol {
+    font-size: 15px!important;
+    border: 1px solid #d2d6de;
+    background-color: #d0fff8;
+    opacity: 1;
+}
+.setli {
+       padding: 5px 0px!important;
+}

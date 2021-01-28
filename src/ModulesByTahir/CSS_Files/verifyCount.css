@@ -1,0 +1,20 @@
+.verifyPricingTable .verify-pricing-content {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-size: 15px;
+  color: #6f6f6f;
+
+  letter-spacing: 1px;
+  width: 100%;
+  margin-right: 0px;
+  overflow: auto;
+}
+
+.table-ui,
+th,
+td {
+  margin: 0px;
+  padding: 0px;
+  text-align: left;
+}

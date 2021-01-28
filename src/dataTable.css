@@ -1,0 +1,29 @@
+.tr-Approved {
+    background-color:#5BC8AC;
+}
+.tr-Cancel {
+    background-color: crimson;
+}
+.tr-inqueue {
+    background-color: lightblue
+}
+.tr-InProcess {
+    background-color: #7DA3A1
+
+}
+.tr-Complete {
+    background-color: #E6D72A
+
+}
+.tRepairPos-Pending {
+    background-color: #E6D72A
+}
+.tRepairPos-waiting{
+    background-color: #7DA3A1
+}
+.tRepairPos-complete{
+    background-color: greenyellow
+}
+.tRepairPos-not{
+    background-color: tomato
+}

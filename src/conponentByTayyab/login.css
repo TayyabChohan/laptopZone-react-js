@@ -1,0 +1,25 @@
+body{
+    margin: 0 auto;
+    padding:0;
+    background: #d2d6de !important;
+}
+.loginbox{
+    background: none !important;
+    margin: 200px auto 0 auto;
+    text-align: center;
+}
+.inputReact{
+    background: #fff;
+    padding: 30px 16px 0;
+}
+.inputReact_2{
+    background: #fff;
+    padding: 16px 16px 30px;
+}
+.inputReact_3{
+    background: #fff;
+    padding: 0px 16px 0px;
+}
+div#root {
+    background:no-repeat;
+}

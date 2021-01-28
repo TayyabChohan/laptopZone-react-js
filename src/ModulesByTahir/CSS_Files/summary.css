@@ -1,0 +1,121 @@
+.pricingTable {
+  padding: 25px 20px;
+  text-align: center;
+  /* border: 2px solid #9a580c; */
+  transition: all 0.3s ease 0s;
+}
+.pricingTable:hover {
+  box-shadow: 0 8px 10px -6px rgba(0, 0, 0, 0.7);
+}
+.pricingTable .title {
+  padding: 10px 0;
+  margin: 0 0 20px 0;
+  font-size: 25px;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 1px;
+  z-index: 1;
+  position: relative;
+}
+.pricingTable .title:before,
+.pricingTable .title:after {
+  content: "";
+  width: 50%;
+  height: 100%;
+  background: #dd4b39;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  transform: skew(0deg, -6deg);
+  transition: all 0.3s ease 0s;
+}
+.pricingTable .title:after {
+  right: auto;
+  left: 0;
+  transform: skew(0deg, 6deg);
+}
+.pricingTable:hover .title:before {
+  transform: skew(0deg, 6deg);
+}
+.pricingTable:hover .title:after {
+  transform: skew(0deg, -6deg);
+}
+.pricingTable .price-value {
+  margin-bottom: 20px;
+}
+.pricingTable .amount {
+  display: block;
+  font-size: 30px;
+  font-weight: 700;
+  color: #dd4b39;
+}
+.pricingTable .month {
+  display: block;
+  font-size: 17px;
+  font-weight: 700;
+  color: #dd4b39;
+}
+.pricingTable .pricing-content {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-size: 15px;
+  color: #6f6f6f;
+  line-height: 40px;
+  letter-spacing: 1px;
+  width: 100%;
+  height: 400px;
+  margin-right: 0px;
+  overflow-y: scroll;
+}
+.pricingTable .pricing-content li {
+  box-shadow: 0 7px 10px -9px rgba(258, 135, 8, 0.8);
+}
+.pricingTable .pricing-content ul li:last-child {
+  box-shadow: none;
+}
+.pricingTable .pricingTable-signup {
+  display: block;
+  padding: 7px 0;
+  font-size: 18px;
+  font-weight: 700;
+  color: #f88708;
+  z-index: 1;
+  position: relative;
+  transition: all 0.3s ease 0s;
+}
+.pricingTable .pricingTable-signup:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border: 2px solid #9a580c;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  transition: border-left-color 0.1s linear 0.14s,
+    border-top-color 0.1s linear 0.07s, border-right-color 0.1s linear 0s,
+    border-bottom-width 0.1s linear 0.14s;
+}
+.pricingTable:hover .pricingTable-signup:hover:before {
+  border-bottom-width: 4px;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  transition: border-left-color 0.1s linear 0s,
+    border-top-color 0.1s linear 0.07s, border-right-color 0.1s linear 0.14s,
+    border-bottom-width 0.1s linear 0.14s;
+}
+@media only screen and (max-width: 990px) {
+  .pricingTable {
+    margin-bottom: 30px;
+  }
+}
+.table-ui,
+th,
+td {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+}

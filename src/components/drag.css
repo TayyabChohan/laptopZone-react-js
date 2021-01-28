@@ -1,0 +1,12 @@
+.draggable {
+    background-color: yellow;
+    margin: 10px;
+}
+ 
+.dragged {
+    opacity: 0.7;
+}
+ 
+.placeholder {
+  opacity: 0.5;
+}

@@ -1,0 +1,28 @@
+[debug] [2019-02-26T06:19:44.293Z] ----------------------------------------------------------------------
+[debug] [2019-02-26T06:19:44.295Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js serve --only functions
+[debug] [2019-02-26T06:19:44.296Z] CLI Version:   6.4.0
+[debug] [2019-02-26T06:19:44.296Z] Platform:      win32
+[debug] [2019-02-26T06:19:44.296Z] Node Version:  v11.10.0
+[debug] [2019-02-26T06:19:44.297Z] Time:          Tue Feb 26 2019 11:19:44 GMT+0500 (Pakistan Standard Time)
+[debug] [2019-02-26T06:19:44.297Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-02-26T06:19:44.310Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-02-26T06:19:44.312Z] > authorizing via signed-in user
+[debug] [2019-02-26T06:19:44.312Z] [iam] checking project laptopzone-9d0ed for permissions ["firebase.projects.get"]
+[debug] [2019-02-26T06:19:44.314Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/laptopzone-9d0ed:testIamPermissions  
+
+[debug] [2019-02-26T06:19:46.128Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-26T06:19:46.133Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/laptopzone-9d0ed  
+ 
+[debug] [2019-02-26T06:19:47.717Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'D:\laptop_zone\laptopzone_react'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-02-26T06:19:48.504Z] Fetching environment
+[debug] [2019-02-26T06:19:48.507Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/476019226125:getServerAppConfig  
+ 
+[debug] [2019-02-26T06:19:49.369Z] <<< HTTP RESPONSE 200
+[debug] [2019-02-26T06:19:49.370Z] Starting @google-cloud/functions-emulator
+[debug] [2019-02-26T06:19:49.428Z] Parsing function triggers
+[info] +  functions: testFunction: http://localhost:5000/laptopzone-9d0ed/us-central1/testFunction
